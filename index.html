@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Godsand Group</title>
+  <title>Godsand - Create with Purpose</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="globals.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <!-- Header -->
   <header class="site-header">
     <div class="top-bar">
       <div class="left-info">
         <img src="assets/email-icon.svg" alt="Email" class="icon email-icon" />
-        <span>hello@godsand.co.ke</span>
+        <a href="mailto:hello@godsand.co.ke" style="color: inherit; text-decoration: none;">hello@godsand.co.ke</a>
         <img src="assets/call-icon.svg" alt="Call" class="icon call-icon" />
         <span>+254 735 977 519</span>
       </div>
@@ -26,12 +28,17 @@
       <img src="assets/godsand-logo.svg" alt="Godsand Logo" class="logo" />
       <div class="nav-actions">
         <div class="nav-links">
-          <a href="#">Contact</a>
-          <a href="#">Work</a>
           <a href="#">Services</a>
+          <a href="#">Projects</a>
           <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Contact</a>
         </div>
-        <button class="start-project-btn">Start a Project</button>
+        <a href="https://wa.me/254735977519" target="_blank" class="start-project-btn">
+  <span>Start Project</span>
+  <img src="assets/right-arrow.svg" alt="Arrow" class="start-arrow" />
+</a>
+
       </div>
     </nav>
   </header>
@@ -40,22 +47,24 @@
   <section class="banner-container">
     <div class="blue-banner">
       <div class="banner-text active">
-        <h1>Design that works – simple, strategic, seamless.</h1>
-        <p>We craft visual identities and user interfaces that are clear, consistent, and conversion-ready – helping brands stand out through design that does more than look good.</p>
+        <h1><span class="highlight">Design</span> that works – simple, strategic, seamless.</h1>
+        <p>We craft visual identities and user interfaces that are clear, consistent, and conversion-ready <br />
+          helping brands stand out through design that does more than look good.</p>
       </div>
       <div class="banner-text">
-        <h1>Websites that perform – fast, functional, future-ready.</h1>
-        <p>We develop responsive, user-focused websites that deliver real impact – combining clean code, modern frameworks, and smart structure to support your brand’s growth.</p>
+        <h1><span class="highlight">Websites</span> that perform – fast, functional, future-ready.</h1>
+        <p>We develop responsive, user-focused websites that deliver real impact – combining clean <br />
+          code, modern frameworks, and smart structure to support your brand’s growth.</p>
       </div>
       <div class="banner-text">
-        <h1>Print that impresses – bold, consistent, high-quality.</h1>
-        <p>We bring your brand to life on paper and merchandise – with sharp prints, vibrant colors, and materials that speak volumes.</p>
+        <h1><span class="highlight">Print</span> that impresses – bold, consistent, high-quality.</h1>
+        <p>We bring your brand to life on paper and merchandise – with sharp prints, <br />
+          vibrant colors, and materials that speak volumes.</p>
       </div>
     </div>
   </section>
 
   <!-- Trusted Section -->
-  <div class="trusted-text">Trusted by 20+ companies</div>
   <div class="logo-bar">
     <div class="logo-track">
       <img src="assets/totalenergies.svg" alt="totalenergies" />
@@ -85,60 +94,128 @@
   </div>
 
   <!-- Services -->
-  <section class="services-section">
+   <section class="services-section">
     <h2 class="services-heading">We create solutions for future-ready brands</h2>
     <div class="cards-container">
       <div class="service-card">
         <img src="assets/graphic.png" alt="Graphic Design" />
         <h3>Graphic Design</h3>
         <p>From brand identities to marketing assets, we create striking designs that are clear, consistent, and built to connect with your audience.</p>
-        <div class="learn-more">Learn More <img src="assets/right-arrow.svg" alt="arrow" /></div>
+        <div class="learn-more">
+  Learn More <img src="assets/right-arrow.svg" alt="arrow" style="height: 20px; vertical-align: middle; margin-top: 10px; margin-bottom: 10px;" />
+
+
+</div>
+
+
       </div>
       <div class="service-card">
         <img src="assets/product.png" alt="UI/UX Design" />
         <h3>UI/UX Design</h3>
         <p>We design user experiences that are intuitive, functional, and conversion-driven – with every click and scroll in mind.</p>
-        <div class="learn-more">Learn More <img src="assets/right-arrow.svg" alt="arrow" /></div>
+        <div class="learn-more">
+  Learn More
+  <img src="assets/right-arrow.svg" alt="arrow" style="height: 20px; vertical-align: middle; margin-top: 10px; margin-bottom: 10px;" />
+</div>
       </div>
       <div class="service-card">
         <img src="assets/web.png" alt="Web Development" />
         <h3>Web Development</h3>
         <p>Fast, responsive, and scalable websites built with clean code and modern frameworks to support your growth online.</p>
-        <div class="learn-more">Learn More <img src="assets/right-arrow.svg" alt="arrow" /></div>
+        <div class="learn-more">
+  Learn More
+  <img src="assets/right-arrow.svg" alt="arrow" style="height: 20px; vertical-align: middle; margin-top: 10px; margin-bottom: 10px;" />
+</div>
       </div>
     </div>
   </section>
 
+
   <!-- Newsletter -->
-  <section class="newsletter-section">
-    <div class="newsletter-background">
-      <img src="assets/mailing.png" alt="Mailing" class="newsletter-image" />
-      <div class="newsletter-content">
-        <h2>Subscribe to our newsletter for the latest updates and insights.</h2>
-        <form class="newsletter-form">
-          <input type="email" placeholder="Enter your email" />
-          <button type="submit">Subscribe</button>
-        </form>
-        <p class="newsletter-note">Stay ahead with the latest offers, updates, insights, and events from Godsand.</p>
-      </div>
+ <!-- Newsletter -->
+<section class="newsletter-section">
+  <div class="newsletter-background">
+    <img src="assets/mailing.png" alt="Mailing" class="newsletter-image" />
+    <div class="newsletter-content">
+      <h2>Subscribe to our newsletter for the latest updates and insights.</h2>
+
+      <!-- BEGIN SUBSCRIBE FORM -->
+      <form class="newsletter-form" id="newsletter-form">
+  <input
+    type="email"
+    name="email"
+    id="newsletter-email"
+    placeholder="Enter your email"
+    required
+  />
+  <button type="submit" id="subscribe-button">Subscribe</button>
+</form>
+<!-- END SUBSCRIBE FORM -->
+
+<p class="newsletter-note">
+  Stay ahead with the latest offers, updates, insights, and events <br />
+  from Godsand.
+</p>
+
+<div id="success-message" class="newsletter-success hidden">
+  Thank you for subscribing to our weekly newsletter. Please be sure to catch us every Friday at 10.00 AM.
+</div>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyIz0vB99DBL3XzqZRpIeqnvSZ7zJdbjt2H6fDmUAnxzjgOwka86GIRRObTWSaM0IK3/exec';
+  const form = document.getElementById('newsletter-form');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, {
+      method: 'POST',
+      body: new FormData(form)
+    })
+    .then(response => {
+      alert("Thank you for subscribing!");
+      form.reset();
+    })
+    .catch(error => {
+      console.error("Error!", error.message);
+      alert("Oops! Something went wrong.");
+    });
+  });
+</script>
+
+      <!-- END SUBSCRIBE FORM -->
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-left">
       <img src="assets/godsand-logo.svg" alt="Godsand Logo" />
       <p class="footer-description">
-        <strong>We are a design and digital solutions provider helping brands communicate clearly through intentional design and web systems.</strong> We believe in one thing above all – create with purpose.
+        We are a design and digital solutions provider helping brands <br />
+        communicate clearly through intentional design and web <br />
+        systems. We believe in one thing above all – <strong>create with purpose</strong>.
       </p>
-      <div class="footer-icons">
-        <img src="assets/facebook.svg" alt="Facebook" />
-        <img src="assets/instagram.svg" alt="Instagram" />
-        <img src="assets/x.svg" alt="X" />
-        <img src="assets/linkedin.svg" alt="LinkedIn" />
-        <img src="assets/tiktok.svg" alt="TikTok" />
-      </div>
+     <div class="footer-icons">
+  <a href="https://www.facebook.com/godsand" target="_blank" rel="noopener noreferrer">
+    <img src="assets/facebook.svg" alt="Facebook" />
+  </a>
+  <a href="https://instagram.com/godsand.co.ke" target="_blank" rel="noopener noreferrer">
+    <img src="assets/instagram.svg" alt="Instagram" />
+  </a>
+  <a href="https://x.com/godsand_" target="_blank" rel="noopener noreferrer">
+    <img src="assets/x.svg" alt="X" />
+  </a>
+  <a href="https://linkedin.com/company/godsand/" target="_blank" rel="noopener noreferrer">
+    <img src="assets/linkedin.svg" alt="LinkedIn" />
+  </a>
+  <a href="https://www.tiktok.com/@godsand_?_t=ZM-8xy6NaE2nMG&_r=1" target="_blank" rel="noopener noreferrer">
+    <img src="assets/tiktok.svg" alt="TikTok" />
+  </a>
+</div>
+
     </div>
+
     <div class="footer-center">
       <h3>Company</h3>
       <ul>
@@ -148,19 +225,33 @@
         <li>Testimonials</li>
       </ul>
     </div>
+
     <div class="footer-right">
       <h3>Got a challenge? We’ll solve it</h3>
       <div class="footer-contact">
-        <img src="assets/phone.svg" alt="Call" />
+        <img src="assets/call-icon-grey.svg" alt="Call" />
         <span>+254 735 977 519</span>
       </div>
       <div class="footer-contact">
-        <img src="assets/email.svg" alt="Email" />
-        <span>hello@godsand.co.ke</span>
+        <img src="assets/email-icon-grey.svg" alt="Email" />
+        <a href="mailto:hello@godsand.co.ke" style="color: inherit; text-decoration: none;">hello@godsand.co.ke</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-divider"></div>
+      <div class="footer-bottom-content">
+        <p class="footer-copy">© 2025 Godsand Digital Limited. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Legal</a>
+        </div>
       </div>
     </div>
   </footer>
 
+  <!-- Banners Autoplay Script -->
   <script>
     const banners = document.querySelectorAll('.banner-text');
     let index = 0;
@@ -175,5 +266,52 @@
 
     setInterval(cycleBanner, 6000);
   </script>
+
+<script>
+  // Google Apps Script web‑app URL
+  const GAS_URL =
+    "https://script.google.com/macros/s/AKfycbwRyRfMdcYvjnnMalWUaDUvggyJ0SyYdRWXqA5G1BT1KMmqF3B4PUoYBnx__Kq_iQ2q/exec";
+
+  const form = document.getElementById("newsletter-form");
+  const emailInput = document.getElementById("newsletter-email");
+  const btn = document.getElementById("subscribe-button");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();                // stop page reload
+    btn.disabled = true;               // disable while sending
+    btn.textContent = "Sending…";
+
+    const email = emailInput.value.trim();
+
+    try {
+      // send data as JSON
+      const res = await fetch(GAS_URL, {
+        method: "POST",
+        redirect: "follow",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (res.ok) {
+        btn.textContent = "Subscribed ✔";
+        emailInput.value = "";
+      } else {
+        btn.textContent = "Try Again";
+        alert("There was a problem. Please try again.");
+      }
+    } catch (err) {
+      btn.textContent = "Try Again";
+      alert("Network error. Please try again.");
+    } finally {
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = "Subscribe";
+      }, 3000);
+    }
+  });
+</script>
+
 </body>
 </html>
